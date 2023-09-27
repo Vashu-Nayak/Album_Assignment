@@ -1,0 +1,93 @@
+body{
+    margin:0;
+}
+.logocont{
+    display:flex;
+
+}
+.logo{
+    padding:10px;
+    margin-top: 5px;
+    height:40px;
+    width:50px;
+    background-color: black;
+}
+nav > ul{
+    list-style-type: none;
+    display:flex;
+    padding:0px;
+}
+li{
+    margin:15px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width:100%;
+    margin:0px;
+}
+.album{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:45px;
+}
+.album h1{
+    font-size: 2.5rem;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.album_button{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom:15px ; */
+}
+button{
+    padding:5px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(67, 160, 241);
+    color:white;
+    /* box-shadow: 5px 5px 20px 5px black; */
+}
+.album_container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e8e7;
+    width:20%;
+    height: 30%;
+    margin:30px;
+    padding:5px;
+    border:1px solid black;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 20px 10px rgb(142, 139, 139); */
+}
+.card:hover{
+    transform: scale3d(1.03, 1.03, 1.2);
+    box-shadow: 5px 5px 20px 10px rgb(142, 139, 139);
+}
+.card p{
+    font-size: 15px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin:10px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
