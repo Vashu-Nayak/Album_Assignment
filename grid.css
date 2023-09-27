@@ -65,26 +65,28 @@ button {
 button:hover {
     background-color: rgb(67, 160, 241);
     color: white;
-    /* box-shadow: 5px 5px 20px 5px black; */
+
 }
 
 .album_container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25% 25% 25%;
+    /* grid-template-rows: 35% 35% 35%; */
     justify-content: center;
+    padding: 10px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     background-color: #e9e8e7;
-    width: 20%;
-    height: 30%;
+    width: 80%;
+    height: 85%;
     margin: 30px;
     padding: 5px;
     border: 1px solid black;
     border-radius: 10px;
-    /* box-shadow: 5px 5px 20px 10px rgb(142, 139, 139); */
 }
 
 .card:hover {
@@ -103,6 +105,7 @@ button:hover {
 }
 
 footer {
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
